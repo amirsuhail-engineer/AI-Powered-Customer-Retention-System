@@ -1,0 +1,4 @@
+2026-06-12 11:37:16,358 - INFO - Model loaded successfully : LogisticRegression(C=2.0, class_weight='balanced', penalty='l2')
+2026-06-12 11:37:19,031 - INFO - Home page loaded
+2026-06-12 11:40:11,152 - INFO - =================== Prediction Request Received ===================
+2026-06-12 11:40:11,162 - INFO - Error in lineno 48 due to <class 'werkzeug.exceptions.BadRequestKeyError'> and Reason 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
