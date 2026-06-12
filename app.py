@@ -26,8 +26,8 @@ try:
         model = pickle.load(f)
     logger.info(f'Model loaded successfully : {model}')
 except Exception as e:
-    logger.info(f'Error loading model : {e}')
-    model = None
+    er_type, er_msg, er_line = sys.exc_info()
+    logger.info(f'Error in lineno {er_line.tb_lineno} due to {er_type} and Reason {er_msg}')
 
 
 @app.route('/', methods=['GET'])
